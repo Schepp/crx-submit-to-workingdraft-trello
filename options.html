@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Authorize with Trello</title>
+		<style type="text/css">
+		body {
+			background-color:#164b69;
+			font-family: Arial, Helvetica, sans-serif;
+			text-align:center;
+		}
+		#message {
+			text-align:center;
+			width:700px;
+			border-radius:5px;
+			background-color:#e3e3e3;
+			padding:15px;
+			margin:0 auto;
+			border:1px solid #FFF;
+			list-style-type:none;
+		}
+		</style>
+	</head>
+	<body>
+		<div id="message">
+			<div id="loggedout" > <a id="connectLink" href="#">Connect to Trello</a> </div>
+			<div id="loggedin">
+				<div id="header"> </div>
+				<div id="output"></div>
+				<a id="disconnect" href="#">Log Out</a> 
+			</div>
+		</div>
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+		<script type="text/javascript" src="https://api.trello.com/1/client.js?key=1ce1e3741fee530467c8f19e19a47b5e"></script>
+		<script type="text/javascript" src="options.js"></script>
+	</body>
+</html>
